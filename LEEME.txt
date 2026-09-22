@@ -1,0 +1,32 @@
+FLORES AMARILLAS PARA TI
+======================
+
+Abre index.html con un navegador moderno. No requiere instalación, compilación,
+servidor ni internet. Mantén index.html, style.css, script.js y assets juntos.
+
+PERSONALIZAR
+En las primeras líneas de script.js, edita el objeto CONFIG:
+- nombrePersona: nombre de la persona (opcional).
+- dedicatoria: tu carta. Para varias líneas, usa \n dentro del texto.
+- nombreRemitente: tu nombre.
+- cantidadPetalos y cantidadParticulas: intensidad de los efectos.
+- mensajes: frases al tocar las flores.
+
+En :root, al inicio de style.css, puedes cambiar colores, brillo y movimiento.
+Los SVG de las flores se generan en script.js y no necesitan archivos externos.
+
+MÚSICA
+Coloca tu audio MP3 en assets/music/music.mp3. No se incluye una canción.
+El botón Descubrir intenta reproducirla a volumen suave. El botón ♫ permite
+pausar y continuar. Si falta el archivo, la experiencia sigue funcionando.
+
+COMPARTIR
+Para compartir por enlace, publica el contenido de esta carpeta en un servicio
+de alojamiento estático. Esta entrega es local; no incluye una URL publicada.
+Antes de compartir, sustituye la dedicatoria y el nombre de ejemplo.
+
+ACCESIBILIDAD Y RENDIMIENTO
+Se puede navegar con teclado, abrir flores con Enter y cerrar diálogos con Escape.
+Compatible con pantallas táctiles y preferencias de movimiento reducido.
+Los pétalos son un conjunto limitado que se reutiliza; las partículas se eliminan.
+Las animaciones y la música se pausan al ocultar la pestaña.

@@ -1,0 +1,2 @@
+Esta experiencia utiliza flores SVG generadas por JavaScript, sin imágenes externas.
+Puedes guardar aquí fotografías u otras imágenes si deseas personalizarla después.
